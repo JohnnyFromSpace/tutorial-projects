@@ -1,0 +1,37 @@
+html, body ul, li{
+    margin: 0;
+    padding: 0;
+}
+
+div.gallery {
+    width: 860px;
+    height: 780px;
+    position: relative;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.showImg {
+    opacity: 1;
+}
+
+.buttons {
+    width: 100%;
+    position: absolute;
+    bottom: 250px;
+}
+
+.buttons .prev {
+    margin-right: 86%;
+    height: 40px;
+}
+
+.buttons .next {
+    height: 40px;
+}
