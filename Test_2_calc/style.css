@@ -1,0 +1,17 @@
+html, body {
+    margin: 40px;
+    background-color:rgb(206, 207, 201);
+}
+
+.error {
+    outline: 2px solid rgb(255, 15, 15);
+}
+
+.new_style {
+    width: 300px;
+    text-decoration: 13px;
+    padding: 6px 0 4px 10px;
+    border: 1px solid #cecece;
+    background: #F6F6f6;
+    border-radius: 8px;
+} 
